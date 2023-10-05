@@ -1,0 +1,10 @@
+{
+    "bert-base": {
+        "model_card": "textattack/bert-base-uncased-snli",
+        "label_map": {"contradiction": 0, "entailment": 1, "neutral": 2}
+    },
+    "roberta-large": {
+        "model_card": "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli",
+        "label_map": {"entailment": 0, "neutral": 1, "contradiction": 2}
+    }
+}
